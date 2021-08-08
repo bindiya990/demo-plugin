@@ -10,12 +10,12 @@ add_action("admin_menu","demoplugin_menu");
 
 function demoplugin_menu()
 {
-	add_menu_page("Dashboard","Dashboard","manage_options","demo-plugin","dashboard");
+	add_menu_page("Demo Plugin","Demo Plugin","manage_options","demo-plugin","home");
 }
 
-function dashboard()
+function home()
 {
-	include "dashboard.php";
+	include "home.php";
 }
 
 ?>
