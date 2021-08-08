@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Dashboard</title>
+	<title>Home Page</title>
 </head>
 <body>
 	<br>
@@ -18,7 +18,7 @@
 		</tr>
 		<tr>
 			<td>
-				<img src="<?php echo plugins_url('image/demo.jpg',__FILE__)?>" alt="Hello">
+				<img src="<?php echo plugins_url('demo.jpg',__FILE__)?>" alt="Hello">
 			</td>
 		</tr>
 	</table>
